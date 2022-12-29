@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Aprendiendo MERN STACK",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -15,7 +15,9 @@
   "author": "Gomez Maximiliano",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
