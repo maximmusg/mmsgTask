@@ -4,12 +4,12 @@ const proyectoSchema = mongoose.Schema({
     nombre: {
         type: String,
         trim: true,
-        require: true,
+        required: true,
     },
     descripcion: {
         type: String,
         trim: true,
-        require: true,
+        required: true,
     },
     fechaEntrega: {
         type: Date,
@@ -18,7 +18,7 @@ const proyectoSchema = mongoose.Schema({
     cliente: {
         type: String,
         trim: true,
-        require: true,
+        required: true,
     },
     creador: {
         type: mongoose.Schema.Types.ObjectId,
